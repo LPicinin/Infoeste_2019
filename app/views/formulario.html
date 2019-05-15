@@ -1,0 +1,49 @@
+<section id="cadastro">
+    <section id="form">
+        <h1>Formulário</h1>
+        <hr>
+        <form action="#">
+            <label for="codigo">Código(*):</label><br>
+            <input type="number" name="codigo" id="codigo"><br>
+
+            <label for="nome">Nome(*):</label><br>
+            <input type="text" name="nome" id="nome"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email"><br>
+
+            <label for="cursos">Curso(*):</label><br>
+            <select name="cursos" id="cursos">
+                <option value=""></option>
+                <option value="BCC">BCC</option>
+                <option value="BSI">BSI</option>
+                <option value="TSI">TSI</option>
+            </select>
+
+            <label for="mensagem">Mesagem:</label><br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"><br>
+
+            </textarea>
+            <button type="button" class="sucesso" onclick="validar()">Cadastrar</button>
+            <button type="button" class="cancelar" onclick="window.location.href = 'index.html'">Cadastrar</button>
+        </form>
+    </section>
+    <section id="tabela">
+        <h1>Tabela</h1>
+        <hr>
+        <table>
+            <caption>Pessoas a Adicionar</caption>
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Deletar</th>
+                    <th>Alterar</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </section>
+</section>
